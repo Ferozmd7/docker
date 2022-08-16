@@ -1,0 +1,9 @@
+version: '3.8'
+services: 
+  ferozwebapp1:
+    image: ferozapp:v1
+    build: .
+    container_name: ferozwebc1
+    ports: 
+     - 9000:80
+    restart: always
